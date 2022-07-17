@@ -1,4 +1,4 @@
-package org.qcri.farase.spellchecker;
+package src.main.java.org.qcri.farase.spellchecker;
 
 import com.jayway.restassured.RestAssured;
 import org.junit.Before;

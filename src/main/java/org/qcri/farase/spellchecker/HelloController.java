@@ -1,4 +1,4 @@
-package org.qcri.farase.spellchecker;
+package src.main.java.org.qcri.farase.spellchecker;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;

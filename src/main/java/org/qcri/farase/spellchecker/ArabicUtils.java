@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.qcri.farase.spellchecker;
+package src.main.java.org.qcri.farase.spellchecker;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
