@@ -1,4 +1,4 @@
-package src.main.java.org.qcri.farase.spellchecker;
+package org.qcri.farase.spellchecker;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -6,8 +6,11 @@ package src.main.java.org.qcri.farase.spellchecker;
  */
 
 import java.io.*;
-import java.util.*;
-import static src.main.java.org.qcri.farase.spellchecker.ArabicUtils.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import static org.qcri.farase.spellchecker.ArabicUtils.*;
 
 /**
  *
