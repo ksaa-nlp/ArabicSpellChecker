@@ -1,4 +1,4 @@
-package src.main.java.org.qcri.farase.spellchecker;
+package com.example;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,11 +15,17 @@ public class HelloController {
 
     @RequestMapping("/")
     String hello() {
-        return "Hello World!";
+        return "xxxx World!";
     }
 
     @Data
-    static class Result {
+     class Result {
+        Result(int left,int right, long answer){
+            this.left = left;
+            this.right = right;
+            this.answer = answer;
+        }
+
         private final int left;
         private final int right;
         private final long answer;
